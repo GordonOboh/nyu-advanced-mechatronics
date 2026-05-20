@@ -72,7 +72,7 @@ Three processors, one robot, and a whole lot of personality.
 | Raspberry Pi 3B | — | — | ✓ Vision processing |
 | Camera Module V2 | — | — | ✓ ArUco detection |
 | Pololu QTR-8RC | ✓ | ✓ | ✓ |
-| HC-SR04 / Ping))) | 3x | 3x | 3x |
+| HC-SR04 / Ping | 3x | 3x | 3x |
 | Servo motors | 2x drive | 2x drive | 2x drive + 1x arm |
 | LEDs | Blue + Red | Blue + Red | Blue + Red |
 | Buzzer | — | ✓ | ✓ |
