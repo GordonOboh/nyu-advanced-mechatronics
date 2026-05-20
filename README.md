@@ -1,36 +1,63 @@
 # Advanced Mechatronics — NYU
 
-Three successive line-following robot projects built for an Advanced Mechatronics course at NYU. Each iteration adds complexity — from a single Arduino controller to a multi-processor system with computer vision.
+We built robots. Three of them, over one semester, each one smarter than the last.
 
 **Group 19:** Dajr Alfred, Mohammed Nauman Shariff, Gordon Oboh
 
 ---
 
-## Projects
+<img src="track-map.png" width="600" alt="Track map">
 
-### 1. Arduino Project
+*The track — a grid inspired by Manhattan and Brooklyn streets. The robot starts at H1 or H2 and navigates through intersections to deliver test kits, avoid obstacles, and identify friend or foe.*
 
-A line-following robot using an **Arduino Nano** with a Pololu QTR-8RC reflectance sensor. Navigates a parking-lot track, detects intersections using 8 IR sensors, and scans for objects using 3 HC-SR04 ultrasonic sensors (left, front, right). Uses continuous rotation servos for differential drive.
+---
 
-**Key features:** Single-microcontroller design, state-machine control flow, contact-less object approach within 7cm.
+## The Projects
+
+### 1. The Arduino Robot
+
+Our first robot. An Arduino Nano with an 8-sensor IR array to follow a black line, three ultrasonic sensors to detect objects, and a pair of servo motors for wheels. It navigates a parking-lot track, stops at intersections, and approaches detected objects within 7cm.
+
+**What it does:** Follows a line, finds objects, stops in front of them.
+
+<video src="Arduino%20Project/Demonstration.mp4" width="600" controls></video>
+
+*Robot navigating the track and approaching an object*
 
 [▶ Read more →](Arduino%20Project/README.md)
 
-### 2. Propeller Project
+---
 
-Upgrades to a **Parallax Propeller + Arduino Nano** dual-processor architecture. The Arduino handles QTR sensor reading; the Propeller runs 5 parallel COGs for line-following, ultrasonic scanning, servo control, and signaling. Enables simultaneous operation — no need to stop and scan.
+### 2. The Propeller Robot
 
-**Key features:** Multi-core processing, obstacle avoidance on a grid track, 10 delivery points.
+Same task, smarter brain. We swapped the single-core Arduino for a **Parallax Propeller** with 8 parallel cores (COGs), using the Arduino as a sensor reader. Now the robot could follow the line, scan for obstacles, control its wheels, and flash indicators — all at the same time.
+
+**What's new:** Multi-core processing means it doesn't have to stop and scan anymore. It can handle obstacle avoidance on a full grid track with 16 intersections and 10 delivery points.
+
+<img src="Propeller%20Project/IMG_2305.jpg" width="400" alt="Propeller robot">
+
+*The Propeller robot with Arduino, QTR sensor, ultrasonic sensors, and servos*
+
+<video src="Propeller%20Project/IMG_2307.mp4" width="600" controls></video>
+
+*Robot navigating the grid track with obstacle avoidance*
 
 [▶ Read more →](Propeller%20Project/README.md)
 
-### 3. Term Project
+---
 
-The final, most complex version: adds a **Raspberry Pi 3B with Camera Module V2** for computer vision. The robot detects ArUco markers and classifies them as friend or foe using OpenCV. A servo arm responds to threats, and audio cues play based on the tag type.
+### 3. The Term Project — Friend or Foe?
 
-**Key features:** Three-processor system (Arduino + Propeller + RPi), real-time ArUco detection, friend/foe classification, actuated arm response.
-- **Friend (ID ≤ 9):** Plays "Hasta La Vista Baby" — no action taken
-- **Foe (ID > 9):** Plays "MK.mp3" — arm servo deploys
+This is where it gets fun. We added a **Raspberry Pi with a camera** to the Propeller + Arduino setup. Now the robot can *see*. It detects ArUco markers and decides if they're a friend or an enemy.
+
+- **Friend (ID ≤ 9):** *"Hasta La Vista, Baby"* plays. The robot leaves them alone.
+- **Foe (ID > 9):** *"MK.mp3"* plays. The arm servo deploys.
+
+Three processors, one robot, and a whole lot of personality.
+
+<video src="Term%20Project/Demo%20Video.mp4" width="600" controls></video>
+
+*Robot scanning for ArUco markers and identifying friend or foe*
 
 [▶ Read more →](Term%20Project/README.md)
 
@@ -65,18 +92,14 @@ The final, most complex version: adds a **Raspberry Pi 3B with Camera Module V2*
 | Servo arm actuation | — | — | ✓ |
 | Audio cues | — | — | ✓ |
 
-## Track Scenario
-
-All three projects navigate a grid-like track inspired by Manhattan/Brooklyn street patterns:
-
-- 2 home positions (H1, H2)
-- 16 intersections (i0–i5, B1–B5, A1–A5)
-- Up to 11 delivery points
-- Bi-directional center lane with one-way side streets
-- Randomly placed obstacle in the center lane
-
 ---
 
-## File_Desc.md
+## What's in the repo
 
-See [`File_Desc.md`](File_Desc.md) for a complete inventory of all media files, code, and reports.
+| Folder | Contains |
+|--------|----------|
+| [`Arduino Project/`](Arduino%20Project/) | Code, report, and demo video of the Arduino line-follower |
+| [`Propeller Project/`](Propeller%20Project/) | Propeller + Arduino code, report, demo, and robot photo |
+| [`Term Project/`](Term%20Project/) | Propeller + Arduino + RPi code, report, demo videos, audio files |
+
+See [`File_Desc.md`](File_Desc.md) for the full breakdown of every file.
