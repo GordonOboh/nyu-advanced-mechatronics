@@ -24,7 +24,7 @@ Our first robot. An Arduino Nano with an 8-sensor IR array to follow a black lin
 
 *Robot navigating the track and approaching an object*
 
-[▶ Read more →](Arduino%20Project/README.md)
+[▶ Read more →](Arduino%20Project/)
 
 ---
 
@@ -42,7 +42,7 @@ Same task, smarter brain. We swapped the single-core Arduino for a **Parallax Pr
 
 *Robot navigating the grid track with obstacle avoidance*
 
-[▶ Read more →](Propeller%20Project/README.md)
+[▶ Read more →](Propeller%20Project/)
 
 ---
 
@@ -59,7 +59,7 @@ Three processors, one robot, and a whole lot of personality.
 
 *Robot scanning for ArUco markers and identifying friend or foe*
 
-[▶ Read more →](Term%20Project/README.md)
+[▶ Read more →](Term%20Project/)
 
 ---
 
