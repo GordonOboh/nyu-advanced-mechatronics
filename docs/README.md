@@ -24,7 +24,7 @@ Our first robot. An Arduino Nano with an 8-sensor IR array to follow a black lin
 
 *Robot navigating the track and approaching an object*
 
-[▶ Read more →](Arduino%20Project/)
+[▶ Read more →](Arduino%20Project/README)
 
 ---
 
@@ -42,7 +42,7 @@ Same task, smarter brain. We swapped the single-core Arduino for a **Parallax Pr
 
 *Robot navigating the grid track with obstacle avoidance*
 
-[▶ Read more →](Propeller%20Project/)
+[▶ Read more →](Propeller%20Project/README)
 
 ---
 
@@ -59,7 +59,7 @@ Three processors, one robot, and a whole lot of personality.
 
 *Robot scanning for ArUco markers and identifying friend or foe*
 
-[▶ Read more →](Term%20Project/)
+[▶ Read more →](Term%20Project/README)
 
 ---
 
@@ -98,6 +98,6 @@ Three processors, one robot, and a whole lot of personality.
 
 | Folder | Contains |
 |--------|----------|
-| [`Arduino Project/`](Arduino%20Project/) | Code, report, and demo video of the Arduino line-follower |
-| [`Propeller Project/`](Propeller%20Project/) | Propeller + Arduino code, report, demo, and robot photo |
-| [`Term Project/`](Term%20Project/) | Propeller + Arduino + RPi code, report, demo videos, audio files |
+| [`Arduino Project/`](Arduino%20Project/README) | Code, report, and demo video of the Arduino line-follower |
+| [`Propeller Project/`](Propeller%20Project/README) | Propeller + Arduino code, report, demo, and robot photo |
+| [`Term Project/`](Term%20Project/README) | Propeller + Arduino + RPi code, report, demo videos, audio files |
