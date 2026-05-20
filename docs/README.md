@@ -98,6 +98,6 @@ Three processors, one robot, and a whole lot of personality.
 
 | Folder | Contains |
 |--------|----------|
-| [`Arduino Project/`](Arduino%20Project/README) | Code, report, and demo video of the Arduino line-follower |
-| [`Propeller Project/`](Propeller%20Project/README) | Propeller + Arduino code, report, demo, and robot photo |
-| [`Term Project/`](Term%20Project/README) | Propeller + Arduino + RPi code, report, demo videos, audio files |
+| [`Arduino Project/`](Arduino%20Project/) | Code, report, and demo video of the Arduino line-follower |
+| [`Propeller Project/`](Propeller%20Project/) | Propeller + Arduino code, report, demo, and robot photo |
+| [`Term Project/`](Term%20Project/) | Propeller + Arduino + RPi code, report, demo videos, audio files |
