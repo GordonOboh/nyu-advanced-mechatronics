@@ -74,7 +74,7 @@ Three processors, one robot, and a whole lot of personality.
 | Pololu QTR-8RC | ✓ | ✓ | ✓ |
 | HC-SR04 / Ping))) | 3x | 3x | 3x |
 | Servo motors | 2x drive | 2x drive | 2x drive + 1x arm |
-| LEDs | Blue + Red | 2x | 2x |
+| LEDs | Blue + Red | Blue + Red | Blue + Red |
 | Buzzer | — | ✓ | ✓ |
 
 ## Software Evolution
