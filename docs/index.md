@@ -6,7 +6,7 @@ We built robots. Three of them, over one semester, each one smarter than the las
 
 ---
 
-<img src="../track-map.png" width="600" alt="Track map">
+<img src="track-map.png" width="600" alt="Track map">
 
 *The track — a grid inspired by Manhattan and Brooklyn streets. The robot starts at H1 or H2 and navigates through intersections to deliver test kits, avoid obstacles, and identify friend or foe.*
 
@@ -20,11 +20,11 @@ Our first robot. An Arduino Nano with an 8-sensor IR array to follow a black lin
 
 **What it does:** Follows a line, finds objects, stops in front of them.
 
-{::nomarkdown}<video src="../Arduino%20Project/Demonstration.mp4" width="600" controls></video>{:/nomarkdown}
+{::nomarkdown}<video src="Demonstration.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot navigating the track and approaching an object*
 
-[▶ Read more →](../Arduino%20Project/README.md)
+[▶ Read more →](https://github.com/GordonOboh/nyu-advanced-mechatronics/tree/main/Arduino%20Project)
 
 ---
 
@@ -34,15 +34,15 @@ Same task, smarter brain. We swapped the single-core Arduino for a **Parallax Pr
 
 **What's new:** Multi-core processing means it doesn't have to stop and scan anymore. It can handle obstacle avoidance on a full grid track with 16 intersections and 10 delivery points.
 
-<img src="../Propeller%20Project/IMG_2305.jpg" width="400" alt="Propeller robot">
+<img src="IMG_2305.jpg" width="400" alt="Propeller robot">
 
 *The Propeller robot with Arduino, QTR sensor, ultrasonic sensors, and servos*
 
-{::nomarkdown}<video src="../Propeller%20Project/IMG_2307.mp4" width="600" controls></video>{:/nomarkdown}
+{::nomarkdown}<video src="IMG_2307.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot navigating the grid track with obstacle avoidance*
 
-[▶ Read more →](../Propeller%20Project/README.md)
+[▶ Read more →](https://github.com/GordonOboh/nyu-advanced-mechatronics/tree/main/Propeller%20Project)
 
 ---
 
@@ -55,11 +55,11 @@ This is where it gets fun. We added a **Raspberry Pi with a camera** to the Prop
 
 Three processors, one robot, and a whole lot of personality.
 
-{::nomarkdown}<video src="../Term%20Project/Demo%20Video.mp4" width="600" controls></video>{:/nomarkdown}
+{::nomarkdown}<video src="Demo Video.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot scanning for ArUco markers and identifying friend or foe*
 
-[▶ Read more →](../Term%20Project/README.md)
+[▶ Read more →](https://github.com/GordonOboh/nyu-advanced-mechatronics/tree/main/Term%20Project)
 
 ---
 
@@ -98,6 +98,6 @@ Three processors, one robot, and a whole lot of personality.
 
 | Folder | Contains |
 |--------|----------|
-| [`Arduino Project/`](../Arduino%20Project/) | Code, report, and demo video of the Arduino line-follower |
-| [`Propeller Project/`](../Propeller%20Project/) | Propeller + Arduino code, report, demo, and robot photo |
-| [`Term Project/`](../Term%20Project/) | Propeller + Arduino + RPi code, report, demo videos, audio files |
+| [`Arduino Project/`](https://github.com/GordonOboh/nyu-advanced-mechatronics/tree/main/Arduino%20Project) | Code, report, and demo video of the Arduino line-follower |
+| [`Propeller Project/`](https://github.com/GordonOboh/nyu-advanced-mechatronics/tree/main/Propeller%20Project) | Propeller + Arduino code, report, demo, and robot photo |
+| [`Term Project/`](https://github.com/GordonOboh/nyu-advanced-mechatronics/tree/main/Term%20Project) | Propeller + Arduino + RPi code, report, demo videos, audio files |
