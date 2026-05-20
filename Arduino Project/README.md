@@ -1,3 +1,8 @@
+---
+layout: default
+title: Arduino Project
+---
+
 # Arduino Project — Line-Following Robot with Obstacle Detection
 
 A line-following robot built with an Arduino Nano for contact-less COVID test kit delivery. Part of a parking-lot scenario where the robot navigates from a home position (H1/H2) through 6 intersections (i0–i5), detecting and approaching objects at up to 11 delivery points.
@@ -74,7 +79,7 @@ The program uses a state-machine architecture (`switch/case` within `loop()`) wi
 
 ## Video
 
-<video src="Demonstration.mp4" width="600" controls></video>
+{::nomarkdown}<video src="Demonstration.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot navigating the track, detecting objects, and stopping at delivery points*
 

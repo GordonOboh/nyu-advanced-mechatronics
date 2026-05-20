@@ -1,3 +1,8 @@
+---
+layout: default
+title: Term Project
+---
+
 # Term Project — Line-Following Robot with Friend/Foe Detection
 
 The final and most advanced iteration: a line-following robot that identifies **friendlies and enemies** using ArUco marker detection, with an **arm servo** to eliminate threats. Combines three processors — Arduino Nano (QTR sensor), Parallax Propeller (motor control + ultrasonic sensing), and Raspberry Pi 3B (computer vision).
@@ -125,13 +130,13 @@ Navigation stages build on the Propeller project with added friend/foe logic:
 
 ### Full Demo
 
-<video src="20220523_053715_compressed.mp4" width="600" controls></video>
+{::nomarkdown}<video src="20220523_053715_compressed.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Full demonstration — robot navigating, detecting friendlies and enemies*
 
 ### Short Clip
 
-<video src="Demo%20Video.mp4" width="600" controls></video>
+{::nomarkdown}<video src="Demo%20Video.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Highlight of the friend/foe detection and arm response*
 

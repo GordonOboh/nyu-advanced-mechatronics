@@ -1,3 +1,8 @@
+---
+layout: default
+title: Propeller Project
+---
+
 # Propeller Project — Line-Following Robot with Obstacle Avoidance
 
 A line-following robot using a **Parallax Propeller** as the master controller and an **Arduino Nano** as a slave for QTR sensor reading. The Propeller's multi-core architecture enables simultaneous line-following, ultrasonic scanning, servo control, and indicator signaling. Built for a contact-less delivery scenario in a grid-like track (Manhattan/Brooklyn street pattern).
@@ -93,7 +98,7 @@ The Arduino reads the QTR-8RC reflectance sensor and sends the data to the Prope
 
 ## Video
 
-<video src="IMG_2307.mp4" width="600" controls></video>
+{::nomarkdown}<video src="IMG_2307.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot navigating the grid track, detecting obstacles, and scanning for deliveries*
 
