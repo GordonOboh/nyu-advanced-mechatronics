@@ -20,7 +20,7 @@ Our first robot. An Arduino Nano with an 8-sensor IR array to follow a black lin
 
 **What it does:** Follows a line, finds objects, stops in front of them.
 
-<video src="../Arduino%20Project/Demonstration.mp4" width="600" controls></video>
+{::nomarkdown}<video src="../Arduino%20Project/Demonstration.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot navigating the track and approaching an object*
 
@@ -38,7 +38,7 @@ Same task, smarter brain. We swapped the single-core Arduino for a **Parallax Pr
 
 *The Propeller robot with Arduino, QTR sensor, ultrasonic sensors, and servos*
 
-<video src="../Propeller%20Project/IMG_2307.mp4" width="600" controls></video>
+{::nomarkdown}<video src="../Propeller%20Project/IMG_2307.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot navigating the grid track with obstacle avoidance*
 
@@ -55,7 +55,7 @@ This is where it gets fun. We added a **Raspberry Pi with a camera** to the Prop
 
 Three processors, one robot, and a whole lot of personality.
 
-<video src="../Term%20Project/Demo%20Video.mp4" width="600" controls></video>
+{::nomarkdown}<video src="../Term%20Project/Demo%20Video.mp4" width="600" controls></video>{:/nomarkdown}
 
 *Robot scanning for ArUco markers and identifying friend or foe*
 
